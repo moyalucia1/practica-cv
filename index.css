@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(fondo.jpg);
+    
+    
+}
+img{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    right: 75%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    border-radius: 60px;
+}
+#titulo{
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: cursive;
+    font-size: 20px;
+    height: 150px;
+    width: 300px;
+    border-inline-start: 24px solid rgb(175, 116, 170);
+}
+h2{
+    font-size: 30px;
+    background-color: rgb(232, 233, 180);
+    width: 230px;
+    border-radius: 20px;
+}
+#contacto{
+    height: 400px;
+    width: 200px;
+    border: 44px inset rgb(175, 116, 170);
+}
+#conocimiento{
+    height: 400px;
+    width: 200px;
+    border: 44px inset rgb(175, 116, 170);
+}
+#experiencia{
+    height: 400px;
+    width: 200px;
+    border: 44px inset rgb(224, 123, 216);
+}
